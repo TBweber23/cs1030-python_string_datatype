@@ -12,7 +12,7 @@ MyFirstName = "Talan"
 MyLastName = "Bingham"
 MyBirthYear = "1998"
 CurrentYear = "2023"
-
+test
 
 
 # TODO String Indexing
@@ -24,7 +24,15 @@ CurrentYear = "2023"
 #       - first two letter of your first name (use the +index)
 #       - second two letter of your last name (use the -index)
 
-
+print(MyFirstName)
+print(MyLastName)
+print(MyBirthYear)
+print(CurrentYear)
+print(MyFirstName[0])
+print(MyLastName[-6])
+print(MyFirstName[0:1])
+print(MyLastName[1:2])
+print(MyLastName[-2:])
 
 
 #TODO Combining Strings
@@ -32,7 +40,8 @@ CurrentYear = "2023"
 #       -first name and last name combined
 #       -first name six times
 
-
+print(MyFirstName, MyLastName)
+print(MyFirstName * 6)
 
 
 
@@ -41,7 +50,8 @@ CurrentYear = "2023"
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
 
-
+print(MyFirstName,MyLastName,"was born in",MyBirthYear)
+print (f"{MyFirstName} {MyLastName} was born in {MyBirthYear}. {MyFirstName} enjoyed celebrating {CurrentYear}")
 
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
