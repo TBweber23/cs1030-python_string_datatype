@@ -8,7 +8,10 @@
 #       -set this equal to your birth year (doesn't have to be real should be less then 100 yrs ago)
 #   - current_year
 #       -set this equal to 2020
-
+MyFirstName = "Talan"
+MyLastName = "Bingham"
+MyBirthYear = "1998"
+CurrentYear = "2023"
 
 
 
