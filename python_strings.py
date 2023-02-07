@@ -12,7 +12,6 @@ MyFirstName = "Talan"
 MyLastName = "Bingham"
 MyBirthYear = "1998"
 CurrentYear = "2023"
-test
 
 
 # TODO String Indexing
@@ -58,9 +57,18 @@ print (f"{MyFirstName} {MyLastName} was born in {MyBirthYear}. {MyFirstName} enj
 #       - possesive first name -birth year is- year of birth 
 #       - tab last name current year
 
+print(MyFirstName + '\'s' + " birth year is " + str(MyBirthYear))
+print('\t' + MyLastName, CurrentYear)
 
 # TODO String methods
 #   - Print the following items (one per line) (print using variables)
 #       - first name and last name in lower case
 #       - length of last name
 #       - first name and last name all in upper case
+
+print(MyFirstName.lower(), MyLastName.lower()) #.thing is a method
+print(len(MyLastName)) #thing(variable) is a function
+FirstNCap = MyFirstName.capitalize()
+FirstLCap = MyLastName.capitalize()
+print(MyFirstName.upper(), MyLastName.upper())
+print(FirstLCap, FirstNCap)
